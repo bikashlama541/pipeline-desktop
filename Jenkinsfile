@@ -6,6 +6,6 @@ node ()
    }
   stage ('second stage')
   {
-    sh (touch jenkins)
+    sh ("touch jenkins")
   } 
 }   
